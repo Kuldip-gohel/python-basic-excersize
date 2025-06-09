@@ -15,27 +15,27 @@ print(num1+num2)
 print(5+10)
 
 # Check if number is even or odd
-# number=int(input("Enter Any number you want to check even or odd "))
+ number=int(input("Enter Any number you want to check even or odd "))
 
-# if (number%2==0):
-#     print(f"number {number} is even")
-# else:
-#     print(f"Number {number} is odd")
+ if (number%2==0):
+    print(f"number {number} is even")
+ else:
+    print(f"Number {number} is odd")
 
 # Find maximum of three numbers
-# list=[25,63,45]
-# print(max(list))
+ list=[25,63,45]
+ print(max(list))
 
-# a=int(input("Enter first number="))
-# b=int(input("Enter first number="))
-# c=int(input("Enter first number="))
+ a=int(input("Enter first number="))
+ b=int(input("Enter first number="))
+ c=int(input("Enter first number="))
 
-# if(a>b and a>c):
-#     print(f"{a} is max value")
-# elif(b>a and b>c):
-#     print(f"{b} is max value")
-# else:
-#     print(f"{c} is max value")
+ if(a>b and a>c):
+     print(f"{a} is max value")
+ elif(b>a and b>c):
+     print(f"{b} is max value")
+ else:
+     print(f"{c} is max value")
 
 
 # Check if a number is prime
